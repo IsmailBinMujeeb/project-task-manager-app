@@ -77,7 +77,7 @@
     npm run dev
     ```
 
-4. The App is acessable at http://localhost:3000
+4. The App is acessable at http://localhost:5173
 
 ## Usage
 
