@@ -1,0 +1,84 @@
+.dashboard-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+}
+
+.dashboard-container h2 {
+    color: #00bfa6;
+    margin-bottom: 20px;
+}
+
+.create-btn {
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    background-color: #00bfa6;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.create-btn:hover {
+    background-color: #00a692;
+}
+
+.projects-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #2a2a2a;
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.1);
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #00bfa6;
+}
+
+.project-card h3 {
+    color: #00bfa6;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #ccc;
+    margin: 5px 0;
+}
+
+.project-card .status {
+    font-weight: bold;
+    color: #00e676;
+}
+
+.project-card .date {
+    display: block;
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 8px;
+}
+
+.project-card .project-title {
+    color: #00e676;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.error {
+    color: #ff5252;
+    margin-bottom: 20px;
+}

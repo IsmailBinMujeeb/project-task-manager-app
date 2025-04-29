@@ -1,0 +1,62 @@
+.create-project-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #121212;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+    font-family: "Segoe UI", sans-serif;
+}
+
+.create-project-container h2 {
+    text-align: center;
+    color: #00bfa6;
+    margin-bottom: 20px;
+}
+
+.create-project-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-project-form label {
+    margin: 10px 0 5px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.create-project-form input,
+.create-project-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+}
+
+.create-project-form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #00bfa6;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.create-project-form button:hover {
+    background-color: #00a692;
+}
+
+.message {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #80d8ff;
+    font-weight: bold;
+}
